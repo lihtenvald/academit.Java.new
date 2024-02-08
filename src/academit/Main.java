@@ -30,7 +30,7 @@ public class Main {
         double averageEven = (double) sumEven / counter;
 
         System.out.println("Среднее арифметическое четных чисел = " + averageEven);
-        System.out.println("Среднее арифметическое = " + average);
+        System.out.println("Среднее арифметическое всех чисел = " + average);
     }
 
 
