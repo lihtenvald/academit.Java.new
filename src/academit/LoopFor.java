@@ -1,6 +1,6 @@
 package academit;
 
-public class СycleFor {
+public class LoopFor {
     public static void main(String[] args) {
         for (int i = 100; i >= 1; i--) {
             if (isMultipleOfFour(i)) {
