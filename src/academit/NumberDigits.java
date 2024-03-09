@@ -2,6 +2,8 @@ package academit;
 
 import java.util.Scanner;
 
+import static java.lang.Math.abs;
+
 public class NumberDigits {
 
     public static void main(String[] args) {
@@ -9,15 +11,12 @@ public class NumberDigits {
 
         System.out.print("Введите целое число:");
 
-        int number = scanner.nextInt();
+        int number = Math.abs(scanner.nextInt());
 
         int digitsSum = 0;
         int evenDigitsSum = 0;
         int maxDigit = 0;
 
-        if (number < 0) {
-            number = Math.abs(number);
-        }
         while (number != 0) {
             int lastDigit = number % 10;
             digitsSum += lastDigit;
